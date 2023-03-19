@@ -1,0 +1,47 @@
+#LIST 
+list1=[23,3,False,"name"]
+print(list1)
+#index - positive index and negative index
+print(list1[0])
+print(list1[1])
+print(list1[2])
+print(list1[-1])
+print(list1[-2])
+
+list2=[True,345,96]
+print(list1)
+list2[-2]=999
+print("After changing the values are",list2)
+
+
+#TUPLE
+tuple1=(4,67,"class",1)
+print(tuple1)
+
+
+
+#SET
+set9={22,56,3,9}
+print(set9)
+
+#union
+set1={23,3,6,78,10}
+set2={10,34,6,58,12}
+set3=set1|set2
+print("the values are",set3)
+
+#intersection
+set4={11,20,51,67,0}
+set5={0,34,578,11,51}
+set6={11,51,345,89,3}
+set7=set4&set5&set6
+print(set7)
+
+
+#DICTIONRY
+mydic={"Username":"jaswanth","Password":2051,"Year":2023}
+print("The values are",mydic) 
+
+# update
+mydic["password"]=9999
+print("The values after updating are",mydic)
